@@ -1,7 +1,7 @@
 {
     "name": "denmasyarikin/laravel-api-pagination",
     "type": "library",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "API Pagination For Laravel & Lumen",
     "keywords": [
         "lumen",

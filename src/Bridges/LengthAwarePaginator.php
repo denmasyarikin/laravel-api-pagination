@@ -15,7 +15,7 @@ class LengthAwarePaginator extends Laravel
     {
         return [
             'data' => $this->items->toArray(),
-            'meta' => [
+            'pagination' => [
                 'limit' => intval($this->perPage()),
                 'pages' => $this->lastPage(),
                 'page' => $this->currentPage(),
